@@ -14,6 +14,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#3b82f6">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <style>
         :root {
             /* Цветовая схема (темная тема) */
@@ -354,8 +357,10 @@
     <div class="container">
         <header>
             <h1>Кредитный калькулятор</h1>
-            <p class="subtitle">Расчёт ежемесячных платежей с учётом инфляции. Все расчёты выполняются в режиме
-                реального времени.</p>
+            <p class="subtitle">
+                Расчёт ежемесячных платежей с учётом инфляции. Все расчёты выполняются в режиме
+                реального времени. Поделитесь сайтом с друзьями!
+            </p>
         </header>
 
         <main>
@@ -501,14 +506,32 @@
                 </div>
             </div>
         </main>
-
         <footer>
-            <p>Кредитный калькулятор с учётом инфляции • Расчёты носят информационный характер</p>
-            <p>Все вычисления выполняются локально в вашем браузере</p>
+            <p>Кредитный калькулятор с учётом инфляции • Расчёты носят информационный характер.</p>
+            <p>Все вычисления выполняются локально в вашем браузере.</p>
+            <br>
+            <hr>
+            <br>
+            <p>
+                Бонус! Получите 500₽ за оформление Альфа-Карты по ссылке и до 100% суперкэшбэка:
+            </p>
+            <p>
+                Альфа-Карта — это бесплатное обслуживание,
+                кэшбэк каждый месяц и много классных предложений от наших
+                партнёров ❤️
+            </p>
+            <p>
+                <a href="https://alfa.me/svHUex" target="_blank" rel="nofollow noopener"
+                    style="font-size: 0.75em; color: #ffffff;">
+                    Оформите Альфа-Карту по реферальной ссылке разработчика и получите 500₽ и суперкэшбэк!
+                </a>
+            </p>
         </footer>
     </div>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/106150769" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <script>
         (function (m, e, t, r, i, k, a) {
             m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
             m[i].l = 1 * new Date();
@@ -517,12 +540,6 @@
         })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=106150769', 'ym');
 
         ym(106150769, 'init', { ssr: true, clickmap: true, ecommerce: "dataLayer", accurateTrackBounce: true, trackLinks: true });
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/106150769" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
-    <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js').catch(console.error);
         }
